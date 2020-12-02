@@ -15,11 +15,11 @@ options(
   radiant.design_ui =
     tagList(
       navbarMenu(
-        "Design H",
+        "Design",
         tags$head(
           tags$script(src = "www_design/js/run_return.js")
         ),
-        "DOE",
+        "My DOE",
         tabPanel("Design of Experiments", uiOutput("doe")),
         "----", "Sample",
         tabPanel("Random sampling", uiOutput("sampling")),
