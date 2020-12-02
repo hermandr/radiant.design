@@ -15,7 +15,7 @@ options(
   radiant.design_ui =
     tagList(
       navbarMenu(
-        "Design",
+        "Design H",
         tags$head(
           tags$script(src = "www_design/js/run_return.js")
         ),
