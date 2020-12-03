@@ -7,6 +7,7 @@ r_url_list[["Random assignment"]] <- "design/randomize/"
 r_url_list[["Sample size (single)"]] <- "design/sample-size/"
 r_url_list[["Sample size (compare)"]] <- "design/sample-size-comp/"
 r_url_list[["Design of Experiments"]] <- "design/doe/"
+r_url_list[["New function"]] <- "design/new_function/"
 options(radiant.url.list = r_url_list)
 rm(r_url_list)
 
@@ -25,7 +26,8 @@ options(
         tabPanel("Random sampling", uiOutput("sampling")),
         tabPanel("Random assignment", uiOutput("randomizer")),
         tabPanel("Sample size (single)", uiOutput("sample_size")),
-        tabPanel("Sample size (compare)", uiOutput("sample_size_comp"))
+        tabPanel("Sample size (compare)", uiOutput("sample_size_comp")),
+        tabPanel("New function", uiOutput("new_function")),# new function
       )
     )
 )
